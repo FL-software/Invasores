@@ -109,7 +109,7 @@ function atirar(e) {
         quadrados[posicaoTiro].classList.add("tiro");
 
         if(quadrados[posicaoTiro].classList.contains("invasor")) {
-            quadrados[posicaoTiro].classList.remove("tiro");
+            quadrados[posicaoTiro].classList.remove("invasor");
             quadrados[posicaoTiro].classList.remove("tiro");
             quadrados[posicaoTiro].classList.add("kabum");
 
